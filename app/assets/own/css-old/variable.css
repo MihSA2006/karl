@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'PseudoInsta';
+	src: url('../fonts/Claymale Personal Use Only.woff') format('woff');
+	src: url('../fonts/Claymale Personal Use Only.woff2') format('woff2');
+	src: url('../fonts/Claymale Personal Use Only.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--black: #000000;
+	--dark-blue: #14213D;
+	--yellow: #FCA311;
+	--light-gray: #E5E5E5;
+	--white: #FFFFFF;
+	
+	--mint-cream: #CFDBD5;
+	--off-white: #E8EDDF;
+	--goldenrod: #F5CB5C;
+	--near-black: #242423;
+	--deep-slate-gray: #333533;
+
+	--search-default: var(--black);
+	--search: var(--goldenrod);
+	--transparent: #00000000;
+	--transparent-half: #0000007F;
+
+	--bg-img: url('../img/bg_1.jpg');
+	--bg-img: url('../img/bg_2.png');
+	--bg-img: url('../img/bg_3.jpg');
+
+	--pseudo-insta: 'PseudoInsta', sans-serif;
+}

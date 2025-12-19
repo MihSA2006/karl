@@ -1,0 +1,7 @@
+@import url('variable.css');
+@import url('bootstrap_override.css');
+@import url('bootstrap.modification.css');
+
+body {
+	background-color: var(--deep-slate-gray);
+}

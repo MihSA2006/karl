@@ -1,0 +1,11 @@
+.country-name {
+	width: 100%;
+	font-size: 200%;
+	border: 0px;
+	border-bottom: 2px var(--white) solid;
+	margin: 20px;
+}
+.country-name:hover {
+	background-color: rgba(100, 100, 100, 0.1);
+	backdrop-filter: blur(12px);
+}

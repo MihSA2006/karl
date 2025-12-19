@@ -1,0 +1,91 @@
+/* =========================[ EACH PANEL ]========================= */
+#main {
+	/* custom height in home_page.js*/
+}
+.each-content::-webkit-scrollbar {
+	width: 10px;
+	background-color: #101010;
+}
+
+.each-content::-webkit-scrollbar-thumb {
+	background-color: #555;
+/*	border-radius: 5px;*/
+}
+.each-content {
+	background-color: #202020;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+/* =========================[ USER ONLINE PANEL ]========================= */
+#user-online-box {
+	padding: 5px 10px;
+}
+#user-online-box::-webkit-scrollbar {
+	height: 10px;
+	background-color: #101010;
+}
+#user-online-box::-webkit-scrollbar-thumb {
+	background-color: #555;
+/*	border-radius: 5px;*/
+}
+.user-online-img {
+	margin-right: 5px;
+}
+/* =========================[ USER PANEL ]========================= */
+#users-panel {
+	/* custom height in script.js*/
+}
+.user-box {
+	color: #FF7800;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.new-messages {
+	background-color: #FF780020;
+}
+.user-box:hover {
+	background-color: #FF780050;
+}
+.user-img {
+	border-radius: 50%;
+	width: 50px;
+}
+.user-username {
+	color: #FF7800;
+}
+.user-timer {
+	color: #A5A5A550;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.user-messages-preview {
+	color: white;
+	font-size: 80%;
+}
+.user-messages-state {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+/* =========================[ MESSAGES PANEL ]========================= */
+#messages-panel-header {
+	background-color: #101010;
+	color: #FF7800;
+	padding: 10px;
+}
+#messages-panel {
+	padding-bottom: 10px;
+/*	display: none;*/
+}
+#messages-panel-footer {
+	color: white;
+	background-color: #FF000010;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	margin-left: 0px;
+}
+/* =========================[ INFO PANEL ]========================= */

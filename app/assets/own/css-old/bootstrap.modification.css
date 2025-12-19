@@ -1,0 +1,25 @@
+/* =========================[ DROP-DOWN MENU AND ITEMS ]========================= */
+
+.dropdown-menu {
+/*	padding: 0px;*/
+/*	outline: none;*/
+}
+.dropdown-item {
+	font-weight: bold;
+	font-size: 80%;
+	padding: 5px 15px;
+}
+.dropdown-item:hover {
+	background-color: #FF7800;
+}
+.dropdown-item:last-child {
+	font-size: 100%;
+}
+.dropdown-item-icon {
+	position: absolute;
+	margin-top: 5px;
+/*	margin-inline: 5%;*/
+}
+.dropdown-item-label {
+	margin-left: 25px;
+}

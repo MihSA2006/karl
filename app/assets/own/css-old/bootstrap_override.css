@@ -1,0 +1,19 @@
+/* =========================[ BOOTSTRAP OVERRIDE ]================================================== */
+
+.bg-blur {
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(12px);
+}
+
+.navbar-nav .nav-item.active .nav-link {
+	color: var(--goldenrod);
+}
+
+.navbar-brand {
+/*	font-family: Claymale Personal Use Only Regular;*/
+/*	font-family: var(--pseudo-insta);*/
+	font-size: 120%;
+}
+.navbar-brand:hover {
+	color: var(--goldenrod);
+}

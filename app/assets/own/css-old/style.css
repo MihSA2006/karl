@@ -1,0 +1,104 @@
+@import url('variable.css');
+@import url('navbar_search.css');
+@import url('navbar_drop_down.css');
+@import url('sidebar.css');
+@import url('bootstrap_override.css');
+
+body {
+	overflow-y: hidden;
+	user-select: none;
+	background-color: var(--deep-slate-gray);
+	color: white;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#main-body {
+	height: 90vh;
+}
+
+
+.navbar-toggler {
+	border: 0px;
+	border-radius: 50px;
+}
+.navbar-toggler:hover {
+	background-color: var(--transparent-half);
+}
+
+main {
+	border-top-left-radius: 30px;
+	padding: 30px 20px;
+}
+
+.main-content {
+	background-color: var(--transparent-half);
+	color: white;
+}
+
+/* =========================[ HEADER ]========================= */
+
+header {
+	background-color: #000;
+	font-size: 120%;
+}
+.header-title {
+	font-size: 125%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.header-title-icon {
+	color: #FF7800;
+}
+.header-title:hover {
+	color: #FF7800;
+	text-decoration: none;
+}
+.header-navigation {
+	font-size: 125%;
+	color: #FFFFFF;
+}
+.header-navigation:focus {
+	color: #FF7800;
+}
+.header-navigation:hover {
+	color: #FF7800;
+}
+
+/* =========================[ FORM INPUT ]========================= */
+
+.form-outline {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0px;
+	border-bottom: 1px solid var(--dark-blue);
+	border-radius: 0px;
+	color: var(--white);
+}
+.form-outline:hover {
+	border-color: var(--dark-blue);
+}
+.form-outline:focus {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: var(--dark-blue);
+	box-shadow: none;
+	color: var(--white);
+}
+.form-outline-scale:hover {
+	transform: scale(1.02);
+}
+.form-outline-scale:focus {
+	transform: scale(1.02);
+}
+.input-group-prepend {
+}
+.input-group-text {
+	color: #FFFFFF;
+	border-color: rgba(0, 0, 0, .25);
+	background-color: #FF7800;
+}
+.btn-ph {
+	background-color: var(--dark-blue);
+	color: var(--white);
+	font-weight: bold;
+}

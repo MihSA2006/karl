@@ -1,0 +1,45 @@
+/* =========================[ DROP-DOWN MENU AND ITEMS ]========================= */
+
+.dropdown-menu {
+/*	padding: 0px;*/
+/*	outline: none;*/
+}
+.dropdown-item {
+	font-weight: bold;
+	font-size: 80%;
+	padding: 5px 15px;
+}
+.dropdown-item:hover {
+	background-color: #FF7800;
+}
+.dropdown-item:last-child {
+	font-size: 100%;
+}
+.dropdown-item-icon {
+	position: absolute;
+	margin-top: 5px;
+/*	margin-inline: 5%;*/
+}
+.dropdown-item-label {
+	margin-left: 25px;
+}
+
+/* =========================[ BOOTSTRAP OVERRIDE ]================================================== */
+
+.bg-blur {
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(12px);
+}
+
+.navbar-nav .nav-item.active .nav-link {
+	color: var(--goldenrod);
+}
+
+.navbar-brand {
+/*	font-family: Claymale Personal Use Only Regular;*/
+/*	font-family: var(--pseudo-insta);*/
+	font-size: 120%;
+}
+.navbar-brand:hover {
+	color: var(--goldenrod);
+}

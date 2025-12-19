@@ -1,0 +1,32 @@
+.sidebar-button {
+	padding: 10px 20px;
+	margin: 5px 0px;
+	border-radius: 50px;
+}
+
+.sidebar-button a {
+	color: white;
+}
+
+.sidebar-button:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(12px);
+	cursor: pointer;
+}
+
+.sidebar-button.active {
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(12px);
+}
+
+.sidebar-button.active.admin {
+	background-color: var(--dark-blue);
+	backdrop-filter: blur(12px);
+}
+
+.sidebar-button-label {
+	margin-left: 1rem;
+}
+
+.sidebar-button-icon {
+}

@@ -1,0 +1,35 @@
+/* =========================[ NAVBAR SEARCH BAR ]================================================== */
+
+.form-outline {
+	color: var(--goldenrod);
+	background-color: var(--transparent);
+	background-color: var(--transparent-half);
+	border: 0px;
+	border-bottom: 1px solid var(--search-default);
+	border-radius: 0px;
+}
+.form-outline:hover {
+	border-color: var(--search);
+}
+.form-outline:focus {
+	color: var(--goldenrod);
+	background-color: var(--transparent-half);
+	border-color: var(--search);
+	box-shadow: none;
+}
+.form-outline::placeholder {
+	color: var(--goldenrod);
+}
+.form-outline::placeholder {
+	color: var(--goldenrod);
+}
+.form-outline:focus::placeholder {
+	color: var(--transparent);
+}
+.input-group-prepend {
+}
+.input-group-text {
+	color: var(--white);
+	border-color: var(--search-default);
+	background-color: var(--dark-blue);
+}
