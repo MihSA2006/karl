@@ -1,4 +1,4 @@
-version: "2.8"  # compatible avec Cloud Shell
+version: "3.3"  # compatible avec Cloud Shell
 services:
   app:
     build: ./docker/apache
