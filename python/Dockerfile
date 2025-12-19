@@ -7,8 +7,8 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copier le code Python depuis app/scripts
-COPY ../app/scripts /app
+# Copier tout le code Python
+COPY . /app
 
 EXPOSE 5000
 
