@@ -1,3 +1,4 @@
+version: "3.9"  # ou 3.8, 3.7
 services:
   app:
     build: ./docker/apache
