@@ -2,12 +2,13 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Installer dépendances
+# Copier les dépendances
 COPY requirements.txt .
+
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copier le code Python
-COPY ../app/scripts/Main.py /app/Main.py
+# Copier le code Python depuis app/scripts
+COPY ../app/scripts /app
 
 EXPOSE 5000
 
